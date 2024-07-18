@@ -44,10 +44,15 @@ python manage.py migrate
 
 Créez un superutilisateur pour accéder à l'interface d'administration Django :
 ```
-python manage.py runserver
+python manage.py createsuperuser
 ```
 
+### Démarrage du serveur de développement
 
+Démarrez le serveur de développement Django :
+```
+python manage.py runserver
+```
 
 
 
